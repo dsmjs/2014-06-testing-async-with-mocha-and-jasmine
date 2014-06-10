@@ -1,0 +1,17 @@
+{
+  "name": "my-thing",
+  "version": "0.0.1",
+  "description": "testing with mocha/jasmine 2.0",
+  "scripts": {
+    "test": "mocha test/mocha.spec.js --reporter tap"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "karma": "^0.12.16",
+    "karma-jasmine": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
